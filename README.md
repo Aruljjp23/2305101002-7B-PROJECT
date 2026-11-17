@@ -81,7 +81,7 @@ Screenshot diambil dari aplikasi FrozenBox yang dijalankan melalui Android Emula
 | Halaman | Berkas |
 | --- | --- |
 | Halaman utama (Home) | `halaman-utama.png` |
-| Halaman kedua (detail-produk) | `halaman-kedua.png` |
+| Halaman kedua (Detail-Produk) | `halaman-kedua.png` |
 | Halaman implementasi | `halaman-implementasi.png` |
 
 ## File APK

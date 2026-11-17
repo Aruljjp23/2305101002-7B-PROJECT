@@ -86,7 +86,7 @@ Screenshot diambil dari aplikasi FrozenBox yang dijalankan melalui Android Emula
 
 ## File APK
 
-File APK tidak dilampirkan pada repository. APK dapat dibuat melalui Android Studio dengan memilih menu **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
+File APK tidak dilampirkan pada repository. APK debug dapat dibuat melalui Android Studio dengan memilih menu **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 
 Hasil APK debug dapat ditemukan pada folder:
 

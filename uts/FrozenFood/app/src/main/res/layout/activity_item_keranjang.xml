@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_input"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgKeranjang"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="@drawable/bg_product_image"
+        android:contentDescription="Gambar produk"
+        android:padding="5dp"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNamaKeranjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nugget Ayam"
+            android:textColor="#202820"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHargaKeranjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Rp35.000"
+            android:textColor="#121010"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnKurangItem"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_category"
+                android:gravity="center"
+                android:text="−"
+                android:textColor="#16834A"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tvJumlahItem"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#202820"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnTambahItem"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_category"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="#16834A"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/btnHapusItem"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="Hapus"
+                android:textColor="#D9534F"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
